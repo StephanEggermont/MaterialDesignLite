@@ -29,7 +29,7 @@ To add MaterialDesignLite Seaside to your baseline just add this:
     	
 Note that you can replace the #master by another branch as #development or a tag as #v1.0.0.
 
-## Getting start
+## Getting started
 
 We use as a base the files product by Google's Material Design Lite. To have a working Material Design Seaside application we need to add those files. 
 Most of them can be easily added via a file library but one file need to be explicitely added because this file change depending on the colors you wish for your application.
@@ -79,6 +79,6 @@ You can find the possible colors into the class MDLColor class.
 
 You can find multiple examples when the application will be installed at the url: [http://localhost:8080/MDLComponentsDemoApplication](http://localhost:8080/MDLComponentsDemoApplication)
 
-(Change the port if you do not use port 8080)
+(Change the port if you do not use port 8080. When you install in a plain Pharo image you need to start the seaside server first by opening World menu > Tools > Seaside Control Panel and adding and starting an appropropriate adaptor (ZnZincServerAdaptor)
 
     	
